@@ -146,3 +146,27 @@ a {
 .corBotão3{
     background-color: #DBE4F0;
 }
+.cor10 {
+    background-color: #222625;
+}
+
+.cor11 {
+    background-color: #71AA67;
+}
+
+.cor12 {
+    background-color: #DD8942;
+}
+
+.fonteCor5 {
+    color: #71AA67;
+}
+.hover5:hover{
+    background-color: #71AA67;
+    color: #222625;
+    border-radius: 5px;
+}
+.borda5{
+    border-top: 1px solid #71AA67;
+    border-bottom: 1px solid #71AA67;
+}
