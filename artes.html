@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cor10 {
+            background-color: #222625;
+        }
+
+        .cor11 {
+            background-color: #71AA67;
+        }
+
+        .cor12 {
+            background-color: #DD8942;
+        }
+
+        .fonteCor5 {
+            color: #71AA67;
+        }
+        .hover5:hover{
+            background-color: #71AA67;
+            color: #222625;
+            border-radius: 5px;
+        }
+        .borda5{
+            border-top: 1px solid #71AA67;
+            border-bottom: 1px solid #71AA67;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <header>
+
+        <nav class="m-0 pt-0 cor10 borda5 container-fluid fixed" id="nav">
+
+            <div class="container-fluid">
+                <div class="row d-flex flex-row justify-content-around">
+                    <div class="col col-2 align-self-top pt-2 d-none d-sm-block">
+                        <a href="#"><img src="imagens/assinatura4.png" alt="" style="width: 30vh;"
+                                class="align-self-top " id="assinatura"></a>
+                    </div>
+                    <div class="col col-8 align-self-top fs-5">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler cor6 col-12 col-sm-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    aria-label="Toggle navigation ">
+                                    <span class=" navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white " href="index.html">
+                                                <p class="fonteCor5 hover5 p-1 urban fs-3">Inicio</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white " href="index.html">
+                                                <p class="fonteCor5 hover5 p-1 urban fs-3">Biografia</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white " href="#">
+                                                <p class="fonteCor5 hover5 p-1 urban fs-3">Artes</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white " href="exposição.html">
+                                                <p class="fonteCor5 hover5 p-1 urban fs-3">Exposicao</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid w-5 pt-5">
+            <div class="row d-flex flex-row justify-content-center  w-5 pt-5">
+                <div class="col w-1 col-12 m-1" style="width: 100vh;">
+
+                    <img src="imagens/grafite.jpeg" alt="" style="width: 100vh;" onclick="trocarImagem()">
+                </div>
+                <div class="col w-1 col-12 m-1" style="width: 100vh;">
+                    <img src="imagens/grafite7.jpeg" alt="" style="width: 100vh;">
+                </div>
+            </div>
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col col-4 m-1" style="width: 60vh;">
+                    <img src="imagens/grafite4.jpeg" alt="" style="width: 60vh;">
+                </div>
+                <div class="col col-4 m-1" style="width: 60vh;">
+                    <img src="imagens/grafite6.jpeg" alt="" style="width: 60vh;">
+                </div>
+                <div class="col col-4 m-1" style="width: 60vh;">
+                    <img src="imagens/grafite5.jpeg" alt="" style="width: 60vh;">
+                </div>
+                <div class="row d-flex flex-row justify-content-center  w-5 ">
+                    <div class="col w-1 col-12 m-1" style="width: 100vh;">
+
+                        <img src="imagens/grafite8.jpeg" alt="" style="width: 100vh;" onclick="trocarImagem()">
+                    </div>
+                    <div class="col w-1 col-12 m-1" style="width: 100vh;">
+                        <img src="imagens/grafite9.jpeg" alt="" style="width: 100vh;">
+                    </div>
+                </div>
+                <div class="row d-flex flex-row justify-content-center">
+                    <div class="col col-4 m-1" style="width: 60vh;">
+                        <img src="imagens/grafite2.jpeg" alt="" style="width: 60vh;">
+                    </div>
+                    <div class="col col-4 m-1" style="width: 60vh;">
+                        <img src="imagens/grafite10.jpeg" alt="" style="width: 60vh;">
+                    </div>
+                    <div class="col col-4 m-1" style="width: 60vh;">
+                        <img src="imagens/grafite3.jpeg" alt="" style="width: 60vh;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="cor10 borda5">
+        <div class="container mb-0" id="contatos">
+            <div class="row d-flex flex-row justify-content-around">
+                <div class="col col-2 align-self-center">
+                    <a href="#"><img src="imagens/destaque3.png" alt="" style="width: 30vh;"></a>
+                </div>
+
+
+
+
+                <div class="col col-2 align-self-center"><a href="#" class="fonteCor4" style="text-decoration: none; ">
+                        <p class="poppins fonteCor5">Email para contato: carlosrenan010@gmail.com</p>
+                    </a></div>
+                <div class="col col-2 align-self-center">
+                    <button class="btn cor11 m-1 hover2"><a href="https://www.behance.net/renanxrt">
+                        <img src="imagens/icons8-behance-50.png" alt=""
+                                style="width: 5vh;">
+                    </a></button>
+                    <button class="btn cor11 m-1 hover2"><a href="https://www.instagram.com/renanxrt.s/">
+                        <img src="imagens/icons8-instagram-50.png" alt=""
+                                style="width: 5vh;">
+                    </a></button>
+                    <button class="btn cor11 m-1 hover2"><a href="http://linkedin.com/in/carlosrenanrc/">
+                        <img src="imagens/icons8-linkedin-50.png" alt=""
+                                style="width: 5vh;">
+                    </a></button>
+                    <button class="btn cor11 m-1 hover2">
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5585986646411&text=Ol%C3%A1%20Sicko,%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20arte"><img
+                                src="imagens/icons8-whatsapp-50.png" alt="" style="width: 5vh;"></a>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

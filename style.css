@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'urban';
+    src: url(fontes/amsterdam.ttf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fontes/Poppins-Regular.ttf);
+}
+
+.urban {
+    font-family: 'urban';
+}
+
+.poppins {
+    font-family: 'poppins';
+}
+
+.cor1 {
+    background-color: #F2F2F2;
+}
+
+.bgImg {
+    background-image: linear-gradient(to bottom, #BFC3D9, #DFE4F2);
+}
+
+.cor2 {
+    background-color: #DFE4F2;
+}
+
+.fonteCor2 {
+    color: #DFE4F2;
+}
+
+.cor3 {
+    background-color: #BFC3D9;
+}
+
+.cor4 {
+    background-color: #868BA6;
+}
+
+.fonteCor4 {
+    color: #868BA6;
+}
+
+.cor5 {
+    background-color: #9BA0BF;
+}
+
+.cor6 {
+    background-color: #5D5D5D;
+}
+.cor7{
+    background-color: #732937;
+}
+.cor8{
+    background-color: #222625;
+}
+.cor9{
+    background-color: #36403A;
+}
+.fonteCor9{
+    color:#222625;
+}
+
+.borda {
+    border-top: 2px solid #868BA6;
+    border-bottom: 2px solid #868BA6;
+}
+.borda2{
+    border-top: 2px solid #36403A;
+    border-bottom: 2px solid #36403A;
+
+}
+
+.radius {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.corBotão {
+    background-color: #5D5D5D;
+}
+
+.corBotão2 {
+    background-color: #9BA0BF;
+}
+
+.link {
+    background-color: #9BA0BF;
+    color: #5D5D5D;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.link2 {
+
+    background-color: #9BA0BF;
+    color: #5D5D5D;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.link3 {
+    background-color: #9BA0BF;
+    color: #5D5D5D;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+
+.hover:hover {
+    background-color: #5D5D5D;
+    color: #9BA0BF;
+
+    border-radius: 5px;
+}
+.hover2:hover{
+    box-shadow: 5px 5px 5px #5D5D5D;
+}
+.hover3:hover{
+    box-shadow: 5px 5px 5px #5D5D5D;
+}
+.hover4:hover{
+    background-color:#222625;
+    color: #732937;
+
+    border-radius: 5px;
+}
+
+.fonteGrande {
+    font-size: 90px;
+    color: #5D5D5D;
+}
+
+.fixed {
+    position: fixed;
+}
+.corBotão3{
+    background-color: #DBE4F0;
+}
