@@ -143,6 +143,7 @@ a {
 
 .fixed {
     position: fixed;
+    z-index: 2;
 }
 .corBotão3{
     background-color: #DBE4F0;
