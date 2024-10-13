@@ -176,3 +176,13 @@ a {
     border-top: 1px solid #732937;
     border-bottom: 1px solid #732937
 }
+ .inicio,.biografia,.contatos{
+    visibility: hidden;
+ }
+  .cor13{
+    background-color: #212529;
+}
+.linha1{visibility: hidden;}
+.fonteCor7{
+    color: #732937;
+}

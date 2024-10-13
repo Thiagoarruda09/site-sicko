@@ -9,6 +9,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body class="cor9">
@@ -64,7 +65,7 @@
     </header>
     <main>
 
-        <div class="container-fluid cor9 pt-5 shadow">
+        <div class="container-fluid cor9 pt-5 shadow linha1">
 
             <div class="row d-flex flex-column flex-sm-row justify-content-around">
                 <div class="col col-12 col-sm-4">
@@ -120,7 +121,7 @@
 
     </main>
     <footer class="cor7 borda2">
-        <div class="container mb-0" id="contatos">
+        <div class="container mb-0" id="contatos linha1">
             <div class="row d-flex flex-row justify-content-around">
                 <div class="col col-2 align-self-center">
                     <a href="#"><img src="imagens/destaque7.png" alt="" style="width: 15vh;"></a>
@@ -171,5 +172,11 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+<script>
+    window.sr=ScrollReveal({reset:true});
+    
+    sr.reveal('.linha1',{duration:1000});
+    
+    </script>
 
 </html>
