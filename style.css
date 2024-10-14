@@ -186,3 +186,29 @@ a {
 .fonteCor7{
     color: #732937;
 }
+.fundo3{
+    background-image: url(imagens/site\ 3.png);
+    background-size: cover;
+}
+.fundoTres{
+    background-image: url(imagens/fundo3.png);
+    background-size: cover;
+    
+}
+.fundo2 {
+    background-image: url(imagens/site\ 2.png);
+    background-size: cover;
+}
+
+.fundoDois {
+    background-image: url(imagens/fundo2.png);
+    background-size: cover;
+}
+.fundo{
+    background-image: url(imagens/site\ 1.png);
+    background-size: cover;
+}
+.fundo1{
+    background-image: url(imagens/fundo1.png);
+    background-size: cover;
+}
