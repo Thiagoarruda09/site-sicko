@@ -15,3 +15,4 @@ sr.reveal('.linha1', { duration: 1000 });
 window.sr = ScrollReveal({ reset: true });
 
 sr.reveal('.linha1', { duration: 1500 });
+
