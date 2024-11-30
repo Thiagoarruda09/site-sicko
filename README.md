@@ -9,6 +9,7 @@
 - Bootstrap
 - ScrollReveal
 - Animate.css
+<br>
 [Link para o acesso](https://thiagoarruda09.github.io/site-sicko/)
 #### Sobre o projeto
 Trata-se de um portifólio com as principais artes do artista urbano Sicko expressas nos mais diversos muros da cidade de fortaleza. O site expõe tambem um pouco da historia do artista, bem como uma exposição que o mesmo participou no Instituto Federal de Educação, Ciência e Tecnologia do Ceará
